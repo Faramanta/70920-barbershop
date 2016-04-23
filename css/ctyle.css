@@ -1,17 +1,282 @@
 body {
+    min-width: 1122px;
+    min-height: 1173px;
+    margin: 0;
+    padding: 0;
+    /*background: #000000 url("../img/barbershop-item.jpg") no-repeat 50% 3px;*/
     font-family: PTSans;
     font-size: 14px;
     line-height: 24px;
     color: #000000;
     font-weight: bold;
+    background-size: 1200px auto;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 h1 {
     font-size: 30px;
     line-height: 42px;
     font-weight: bold;
 }
+
 h2 {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
+}
+
+.container{
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+    /* Только для оформления сетки */
+    /*min-height: 70px;*/
+    background: rgba(255, 45, 82, 0.2);
+    outline: 2px solid red;
+}
+
+
+
+.main-header {
+    margin-bottom: 60px;
+
+     /*Только для оформления сетки*/
+    outline: 2px solid green;
+    background: rgba(0, 128, 0, 0.2);
+}
+
+.main-navigation {
+    float: left;
+    width: 780px;
+
+    /* Только для оформления сетки */
+    min-height: 72px;
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+
+    /* Только для оформления сетки */
+    min-height: 72px;
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.index-logo{
+    min-height: 204px;
+    width: 368px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.features{
+    margin-bottom: 80px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.features-item{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    min-height: 175px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid blue;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.features-item:last-child{
+    margin-right: 0;
+}
+
+.index-content{
+    padding: 50px 80px;
+    margin-bottom: 35px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.index-content-left{
+    float: left;
+    width: 380px;
+    min-height: 330px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid blue;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.index-content-right{
+    float: right;
+    width: 300px;
+    min-height: 330px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid blue;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.main-footer{
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    /*Только для оформления сетки*/
+    outline: 2px solid green;
+    background: rgba(0, 128, 0, 0.2);
+}
+
+.footer-contacts{
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+    min-height: 90px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.footer-social{
+    float: left;
+    width: 200px;
+    min-height: 90px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.footer-copyright{
+    float: right;
+    width: 180px;
+    min-height: 90px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.inside-header{
+    margin-bottom: 0;
+}
+
+.inside-container{
+    /*width: 940px;*/
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 48px;
+}
+
+.main-caption{
+    min-height: 35px;
+    margin-bottom: 20px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.breadcrumbs{
+    min-height: 24px;
+    margin-bottom: 40px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.catalog-content{
+    margin-bottom: 40px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.filter{
+    float: left;
+    width: 230px;
+    min-height: 610px;
+    
+    /* Только для оформления сетки */
+    outline: 2px solid blue;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.product-list{
+    float: right;
+    width: 700px;
+    min-height: 610px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid blue;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.pager{
+    margin-left: 240px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+    min-height: 43px;
+}
+
+.catalog-footer{
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 1200px;
+}
+
+.item-content{
+    
+    /* Только для оформления сетки */
+    outline: 2px solid yellow;
+    background: rgba(234, 255, 45, 0.2);
+}
+
+.item-content-left{
+    float: left;
+    width: 480px;
+    min-height: 680px;
+    /* Только для оформления сетки */
+    outline: 2px solid blue;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.item-content-right{
+    float: right;
+    width: 390px;
+    min-height: 680px;
+
+    /* Только для оформления сетки */
+    outline: 2px solid blue;
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.product-gallery li{
+
+    display: inline-block;
 }
