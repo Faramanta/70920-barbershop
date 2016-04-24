@@ -180,17 +180,20 @@ h2 {
     margin-bottom: 0;
 }
 
-.inside-container{
-    /*width: 940px;*/
-    padding-top: 30px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-bottom: 48px;
+.main{
+    padding-top: 50px;
+    /*Только для оформления сетки*/
+    outline: 2px solid green;
+    background: rgba(0, 128, 0, 0.2);
+    padding-bottom: 50px;
+}
 }
 
 .main-caption{
+    margin-top: 0px;
     min-height: 35px;
     margin-bottom: 20px;
+    box-sizing: 1200px;
 
     /* Только для оформления сетки */
     outline: 2px solid yellow;
@@ -199,7 +202,7 @@ h2 {
 
 .breadcrumbs{
     min-height: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 
     /* Только для оформления сетки */
     outline: 2px solid yellow;
@@ -218,10 +221,14 @@ h2 {
     float: left;
     width: 230px;
     min-height: 610px;
-    
+
     /* Только для оформления сетки */
     outline: 2px solid blue;
     background: rgba(0, 0, 255, 0.2);
+}
+
+.content-caption{
+    margin-top: 0px;
 }
 
 .product-list{
@@ -236,6 +243,8 @@ h2 {
 
 .pager{
     margin-left: 240px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     /* Только для оформления сетки */
     outline: 2px solid yellow;
@@ -245,9 +254,6 @@ h2 {
 
 .catalog-footer{
     margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    width: 1200px;
 }
 
 .item-content{
